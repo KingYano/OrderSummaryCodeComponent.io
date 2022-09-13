@@ -1,0 +1,222 @@
+body {
+  margin: 0%;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e0e8ff;
+  font-family: 'Outfit', sans-serif;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body h1, body h2, body p {
+  margin: 0;
+}
+
+body p {
+  font-size: 16px;
+}
+
+body .ic-oder-summary {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .ic-oder-summary .ic-card {
+  height: 645px;
+  width: 450px;
+  border-radius: 20px;
+  background-color: white;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body .ic-oder-summary .ic-card .ic-header .ic-image {
+  height: 100%;
+  width: 450px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+body .ic-oder-summary .ic-card .ic-body {
+  height: calc(100% - 225px);
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-paragraph {
+  text-align: center;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-paragraph .ic-title {
+  color: #1f2f56;
+  margin: 25px 0 15px;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-paragraph .ic-text {
+  font-size: 16px;
+  margin: 0 50px;
+  color: #7280a7;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info {
+  height: 60px;
+  width: 80%;
+  margin: 25px 40px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 20px;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-icon {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-icon .i-icon {
+  height: 45px;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-info-price {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-info-price .ic-title {
+  font-size: 18px;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-info-price .ic-price {
+  font-weight: 500;
+  color: #7280a7;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-link {
+  width: 20%;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-link .i-link {
+  font-weight: 700;
+  color: #3829e0;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-info .ic-link .i-link:hover {
+  color: #766CF1;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-commands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-commands .ic-btn-payment {
+  width: 80%;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-commands .ic-btn-payment .i-btn-payment {
+  height: 50px;
+  background-color: #3829e0;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-commands .ic-btn-payment .i-btn-payment:hover {
+  background-color: #766CF1;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-commands .ic-btn-cancel {
+  margin: 30px 0;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-commands .ic-btn-cancel .i-btn-cancel {
+  color: #7280a7;
+  font-size: 18px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+body .ic-oder-summary .ic-card .ic-body .ic-commands .ic-btn-cancel .i-btn-cancel:hover {
+  color: #1f2f56;
+}
+
+@media (max-width: 375px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .ic-oder-summary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .ic-oder-summary .ic-card {
+    width: 310px;
+    height: auto;
+  }
+  body .ic-oder-summary .ic-card .ic-header .ic-image {
+    width: 310px;
+  }
+  body .ic-oder-summary .ic-card .ic-body .ic-info {
+    margin: 20px 20px;
+  }
+  body .ic-oder-summary .ic-card .ic-body .ic-info .ic-info-price {
+    padding-left: 10px;
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
